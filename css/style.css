@@ -1,0 +1,298 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*header start*/
+header{
+	background-color: #121B2A;
+	padding: 10px 0;
+	box-shadow: 0px 15px black;
+	
+}
+.wrapper{
+	overflow: hidden;
+	width: 80%;
+	/*border: 1px solid white;*/
+	margin:0 auto;
+
+}
+.logo{
+	width: 20%;
+	/*border: 1px solid white;*/
+	float: left; 
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	/*border: 1px solid white;*/
+	float: right;
+	margin-top: 35px;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	transition: .5s;
+	padding: 0 20px;
+	display: block;
+
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+
+} 
+
+.menu ul li a:hover{
+	color: #05659f;
+
+}
+/*header end*/
+
+/* banner start */
+.banner{
+	background-image: url(../images/banner.jpg);
+	 /* min-height: 800px; */
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.banner_content
+{
+	/* border: 1px solid white; */
+	width: 50%;
+	margin-top: 230px;
+	margin-bottom: 80px;
+}
+.banner_content h1
+{
+	font-family: sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}
+.banner_content h2{
+	font-family: sans-serif;
+    
+    font-size: 40px;
+    color: #0074B7;
+    margin: 0;
+}
+.banner_content p{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: white;
+	line-height: 25px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.banner_content button
+{
+	background-color: #FFFFFF;
+	padding: 15px 50px;
+	font-family: sans-serif;
+	font-weight: 700px;
+	font-size: 26px;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 5px; 
+}
+
+
+/* banner end */
+
+/* service start */
+.service
+{
+	background-color: #121B2C;
+	padding-top: 30px;
+}
+.single
+{
+	float: left;
+	width: 29%;
+	border-right: 1px solid white; 
+	padding: 0 20px 60px 20px; 
+	
+}
+
+
+.top
+{
+	overflow: hidden;
+}
+.top_logo
+{
+	width: 30%;
+	/* border: 1px solid white; */
+	float: left;
+
+}
+.top_logo img
+{
+	width: 100%;
+}
+.top_text
+{
+	width: 60%;
+	/* border: 1px solid white; */
+	float: left;
+	margin-top: 20px;
+}
+.top_text h1
+{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: white;
+	margin: 0;
+}
+.top_text h2
+{
+	font-family: sans-serif;
+	font-size: 29px;
+	color: #0177BD;
+	margin: 0;
+	
+}
+.bottom
+{
+	margin-top: 15px;
+}
+.bottom p
+{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: white;
+	line-height: 25px;
+	margin: 0;
+}
+.single:last-child
+{
+	border-right: none;
+}
+
+.single:last-child h2
+{
+	display: inline;
+	
+}
+.single:last-child h1
+{
+	display: inline;
+	
+}
+
+.top_text:last-child 
+{
+	margin-top: 10px;
+	
+}
+
+/* service end */
+
+/* contact start */
+
+.contact {
+
+	background-color: #000000;
+	padding-top: 30px;
+
+}
+
+.container{
+	overflow: hidden;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.c-single1{
+	float: left;
+	width: 25%;
+  	margin-top: 25px;
+  	padding: 0 30px 60px 10px;
+}
+
+.contact-title h1{
+	font-family: sans-serif;
+  	font-weight: normal;
+  	font-size: 18px:;
+  	color: white;
+  	margin:0; 
+}
+.contact-title h1 span{
+	color: #0075B8;
+}
+
+.contact-text p 
+{
+	color: white;
+}
+/* .c-single2{
+	float: left;
+	width: 25%;
+  	margin-top: 25px;
+  	padding: 0 30px 60px 10px;
+}
+ */
+.c-single1 .bottom-text h5{
+	color: white;
+}
+
+.bottom-text a {
+	color: white;
+}
+
+footer{
+	background-color: #121B2C;
+	margin: 0;
+}
+
+/* .adress {
+	font-family: sans-serif;
+	font-weight: 200;
+	font-size: 10px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.number {
+	font-family: sans-serif;
+	font-weight: 200;
+	font-size: 10px;
+	color: white;
+	
+}
+.iphone{
+	float: left;
+}
+.Apps{
+	float: right;
+	overflow: hidden;
+	margin: 0;
+}
+.Apps h1{
+	color: white;
+	
+}
+.Apps h1 span{
+	color: #0075B8;
+	
+} */
+
+/* contact end */
